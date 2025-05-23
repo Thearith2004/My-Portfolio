@@ -1,7 +1,7 @@
 import { useState } from "react"
 import { Menu, X } from "lucide-react"
 
-function Navbar() {
+export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false)
 
   const navLinks = [
@@ -56,4 +56,4 @@ function Navbar() {
   )
 }
 
-export default Navbar
+

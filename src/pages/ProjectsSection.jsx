@@ -31,7 +31,7 @@ function ProjectsSection() {
       id: 3,
       title: "PHP Project News",
       description: "A website news with more category.",
-      image: "/http://localhost:5173/images/news.jpg?height=400&width=600",
+      image: "http://localhost:5173/images/news.jpg?height=400&width=600",
       category: "backend",
       technologies: ["HTML","CSS", "JS", "PHP", "MySQL"],
       github: "https://github.com/Thearith2004/php-project-news",

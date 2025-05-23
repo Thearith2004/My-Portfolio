@@ -5,8 +5,8 @@ import AboutSection from "./AboutSection"
 import SkillsSection from "./SkillsSection"
 import ProjectsSection from "./ProjectsSection"
 import ContactSection from "./ContactSection"
-import Footer from "./components/footer"
-import Navbar from "./components/Navbar"
+import Footer from "./Footer"
+import Navbar from "./Navbar"
 
 export default function Home() {
   const profileImage = "http://localhost:5173/images/image_2024-01-04_16-04-48.png" // Change the image by replacing the file in public/images/
@@ -14,7 +14,6 @@ export default function Home() {
   return (
     <div className="bg-slate-950 text-white min-h-screen">
       <Navbar/>
-
       <main>
         <section id="home" className="pt-24 pb-16 bg-slate-900">
           <div className="container mx-auto px-4 md:px-6">
@@ -102,7 +101,7 @@ export default function Home() {
         <ContactSection />
       </main>
 
-      <Footer />
+      <Footer/>
     </div>
   )
 }

@@ -5,7 +5,7 @@ import SkillsSection from "./pages/SkillsSection"
 import ProjectsSection from "./pages/ProjectsSection"
 import ContactSection from "./pages/ContactSection"
 import AboutSection from "./pages/AboutSection"
-import Navbar from "../components/Navbar"
+import Navbar from "./pages/Navbar"
 
 function App() {
 
