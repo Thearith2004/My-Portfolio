@@ -1,19 +1,18 @@
 import { useState } from "react"
 import { Github, Linkedin, Mail } from "lucide-react"
 import { motion } from "framer-motion"
-import Navbar from "../components/navbar"
 import AboutSection from "./AboutSection"
 import SkillsSection from "./SkillsSection"
 import ProjectsSection from "./ProjectsSection"
 import ContactSection from "./ContactSection"
 import Footer from "../components/footer"
-
+import Navbar from "../components/navbar"
 export default function Home() {
-  const profileImage = "public/images/image_2024-01-04_16-04-48.png" // Change the image by replacing the file in public/images/
+  const profileImage = "http://localhost:5173/images/image_2024-01-04_16-04-48.png" // Change the image by replacing the file in public/images/
 
   return (
     <div className="bg-slate-950 text-white min-h-screen">
-      <Navbar />
+      <Navbar/>
 
       <main>
         <section id="home" className="pt-24 pb-16 bg-slate-900">
