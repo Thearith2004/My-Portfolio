@@ -7,9 +7,12 @@ import ProjectsSection from "./ProjectsSection"
 import ContactSection from "./ContactSection"
 import Footer from "./Footer"
 import Navbar from "./Navbar"
+import MyImage from "../assets/image_2024-01-04_16-04-48.png"
 
 export default function Home() {
-  const profileImage = "src/assets/image_2024-01-04_16-04-48.png" // Change the image by replacing the file in public/images/
+  const profileImage = {
+    image: MyImage
+  }
 
   return (
     <div className="bg-slate-950 text-white min-h-screen">
@@ -41,7 +44,7 @@ export default function Home() {
                     ease: "easeInOut"
                   }}
                 >
-                  <img src={profileImage} alt="Profile" className="w-full h-full object-cover" />
+                  <img src={profileImage.image} alt="Profile" className="w-full h-full object-cover" />
                 </motion.div>
               </motion.div>
 

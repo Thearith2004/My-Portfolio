@@ -1,7 +1,10 @@
-"use client"
 
 import { useState } from "react"
 import { Github, ExternalLink } from "lucide-react"
+import electronic_shop2 from '../assets/electronic_shop2.jpg';
+import electronic_shop from '../assets/electronic_shop.jpg';
+import news from '../assets/news.jpg';
+import movie from '../assets/movie.jpg';
 
 function ProjectsSection() {
   const [activeFilter, setActiveFilter] = useState("all")
@@ -11,7 +14,7 @@ function ProjectsSection() {
       id: 1,
       title: "E-Commerce Website with Backend",
       description: "A full-featured online store with product catalog, shopping cart, and payment integration.",
-      image: "src/assets/electronic_shop2.jpg?height=400&width=600",
+      image: electronic_shop2,
       category: "backend",
       technologies: ["HTML","CSS", "JS", "PHP", "laravel", "MySQL"],
       github: "https://github.com/Thearith2004/laravel_online_shop",
@@ -21,7 +24,7 @@ function ProjectsSection() {
       id: 2,
       title: "Front E-Commerce",
       description: "A responsive website with frontend",
-      image: "src/assets/electronic_shop.jpg?height=400&width=600",
+      image: electronic_shop,
       category: "frontend",
       technologies: ["HTML", "CSS", "JavaScript", "Bootstrap"],
       github: "https://github.com/Thearith2004/front-electronic-shop",
@@ -31,7 +34,7 @@ function ProjectsSection() {
       id: 3,
       title: "PHP Project News",
       description: "A website news with more category.",
-      image: "src/assets/news.jpg?height=400&width=600",
+      image: news,
       category: "backend",
       technologies: ["HTML","CSS", "JS", "PHP", "MySQL"],
       github: "https://github.com/Thearith2004/php-project-news",
@@ -41,7 +44,7 @@ function ProjectsSection() {
       id: 4,
       title: "Fronted movie website",
       description: "A website movie tamplate like Major Cineplex",
-      image: "src/assets/movie.jpg?height=400&width=600",
+      image: movie,
       category: "frontend",
       technologies: ["HTML","CSS","Bootstrap", "JavaScript"],
       github: "https://github.com/Thearith2004/front-movie",
