@@ -9,7 +9,7 @@ import Footer from "./Footer"
 import Navbar from "./Navbar"
 
 export default function Home() {
-  const profileImage = "http://localhost:5173/images/image_2024-01-04_16-04-48.png" // Change the image by replacing the file in public/images/
+  const profileImage = "src/assets/image_2024-01-04_16-04-48.png" // Change the image by replacing the file in public/images/
 
   return (
     <div className="bg-slate-950 text-white min-h-screen">
