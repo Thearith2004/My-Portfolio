@@ -5,8 +5,9 @@ import AboutSection from "./AboutSection"
 import SkillsSection from "./SkillsSection"
 import ProjectsSection from "./ProjectsSection"
 import ContactSection from "./ContactSection"
-import Footer from "../components/footer"
-import Navbar from "../components/navbar"
+import Footer from "./components/footer"
+import Navbar from "./components/Navbar"
+
 export default function Home() {
   const profileImage = "http://localhost:5173/images/image_2024-01-04_16-04-48.png" // Change the image by replacing the file in public/images/
 
